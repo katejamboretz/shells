@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name": "image-1",
+        "image": "../images/aaron-burden-1rVQGaA_toU-unsplash.jpg",
+        "value": 0
+    },
+    {
+        "id": 2,
+        "name": "image-2",
+        "image": "../public/images/aaron-burden-LMlVa3QDEXs-unsplash.jpg",
+        "value": 0
+    },
+    {
+        "id": 3,
+        "name": "image-3",
+        "image": "../public/images/andrew-buchanan-i4eEYLfZq-o-unsplash.jpg",
+        "value": 0
+    },
+    {
+        "id": 4,
+        "name": "image-4",
+        "image": "../public/images/axel-visoso-st1hkaZnZow-unsplash.jpg",
+        "value": 0
+    },
+    {
+        "id": 5,
+        "name": "image-5",
+        "image": "../public/images/francisco-camino-gonzalez-Fag6CbgA4Bc-unsplash.jpg",
+        "value": 0
+    },
+    {
+        "id": 6,
+        "name": "image-6",
+        "image": "../public/images/james-wainscoat-KLzcX9Pimy0-unsplash.jpg",
+        "value": 0
+    },
+    {
+        "id": 7,
+        "name": "image-7",
+        "image": "../public/images/nicole-elliott-Fs0_2Vnac_4-unsplash.jpg",
+        "value": 0
+    },
+    {
+        "id": 8,
+        "name": "image-8",
+        "image": "../public/images/peter-nicola-1V0ucpOq6D0-unsplash.jpg",
+        "value": 0
+    },
+    {
+        "id": 9,
+        "name": "image-9",
+        "image": "../public/images/pooya-5MYIKULVAOc-unsplash.jpg",
+        "value": 0
+    },
+    {
+        "id": 10,
+        "name": "image-10",
+        "image": "../public/images/pratik-patel-ABwLp9DVOhg-unsplash.jpg",
+        "value": 0
+    },
+    {
+        "id": 11,
+        "name": "image-11",
+        "image": "../public/images/stefan-kunze-xkua4kLZWO0-unsplash.jpg",
+        "value": 0
+    },
+    {
+        "id": 12,
+        "name": "image-12",
+        "image": "../public/images/nadieska-meza-siles-F8HbDs4srPE-unsplash.jpg",
+        "value": 0
+    }
+]
