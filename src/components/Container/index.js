@@ -58,7 +58,7 @@ function resetPage() {
     shuffle(photos);
     shells.forEach(function (element, i) {
         element.imageTest = photos[i];
-        element.valuetest = Math.floor(Math.random() * 1);
+        element.valuetest = Math.floor(Math.random() * 2);
     });
 }
 
@@ -72,29 +72,52 @@ class Container extends React.Component {
         highscore: 0
     };
 
-    resetPage() {
+    shuffle = (array) => {
+        var currentIndex = array.length, temporaryValue, randomIndex;
+
+        // While there remain elements to shuffle...
+        while (0 !== currentIndex) {
+
+            // Pick a remaining element...
+            randomIndex = Math.floor(Math.random() * currentIndex);
+            currentIndex -= 1;
+
+            // And swap it with the current element.
+            temporaryValue = array[currentIndex];
+            array[currentIndex] = array[randomIndex];
+            array[randomIndex] = temporaryValue;
+        }
+
+        return array;
+    }
+
+    resetPage = () => {
         console.log("page reset");
         shuffle(photos);
         shells.forEach(function (element, i) {
             element.imageTest = photos[i];
-            element.valuetest = Math.floor(Math.random() * 1);
+            element.valuetest = Math.floor(Math.random() * 2);
         });
     }
 
-    componentDidMount() {
+    componentDidMount = () => {
         this.resetPage();
     }
 
     onClick = event => {
         console.log("I've been clicked")
-        if (event.click.value === 0) {
-            this.setState({ score: 0 });
-            this.resetPage();
+        const value = event.target.getAttribute("valuetest")
+        console.log("Value: " + value)
+        if (value === "0") {
+            if (this.state.score > this.state.highscore) {
+                this.setState(state => ({ highscore: this.state.score }))
+            }
+            this.setState(state => ({ score: 0 }));
         }
         else {
-            this.setState({ score: this.state.score + 1 })
-            this.resetPage();
+            this.setState(state => ({ score: this.state.score + 1 }))
         }
+        this.resetPage();
     }
 
 
@@ -110,7 +133,7 @@ class Container extends React.Component {
                         name={shell.name}
                         imageTest={shell.imageTest}
                         valuetest={shell.valuetest}
-                        onClick={this.onClick}
+                        onClick={this.onClick.bind(this)}
                     />))}
             </div>
         )

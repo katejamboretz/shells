@@ -4,7 +4,7 @@ import React from "react";
 function Card(props) {
     return (
         <div className="card">
-            <img className="card-img-top" valuetest={props.valuetest} src={props.imageTest} alt={props.name}></img>
+            <img className="card-img-top" valuetest={props.valuetest} src={props.imageTest} alt={props.name} id={props.id} key={props.id} name={props.name} onClick={props.onClick}></img>
         </div >
     )
 }
