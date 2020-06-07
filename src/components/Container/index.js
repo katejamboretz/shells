@@ -126,15 +126,17 @@ class Container extends React.Component {
             <div>
                 <Header />
                 <Score score={this.state.score} highscore={this.state.highscore} />
-                {this.state.shells.map(shell => (
-                    <Card
-                        id={shell.id}
-                        key={shell.id}
-                        name={shell.name}
-                        imageTest={shell.imageTest}
-                        valuetest={shell.valuetest}
-                        onClick={this.onClick.bind(this)}
-                    />))}
+                <div className="row row-cols-*">
+                    {this.state.shells.map(shell => (
+                        <Card
+                            id={shell.id}
+                            key={shell.id}
+                            name={shell.name}
+                            imageTest={shell.imageTest}
+                            valuetest={shell.valuetest}
+                            onClick={this.onClick.bind(this)}
+                        />))}
+                </div>
             </div>
         )
     }
