@@ -14,6 +14,5 @@ function Score(props) {
     )
 }
 
-// style=>   Can't figure out how to add this style
 
 export default Score;
