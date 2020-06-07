@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/shells/static/css/main.b5872079.chunk.css",
+    "main.js": "/shells/static/js/main.f3eaf398.chunk.js",
+    "main.js.map": "/shells/static/js/main.f3eaf398.chunk.js.map",
+    "runtime-main.js": "/shells/static/js/runtime-main.55fde538.js",
+    "runtime-main.js.map": "/shells/static/js/runtime-main.55fde538.js.map",
+    "static/js/2.ce5a691a.chunk.js": "/shells/static/js/2.ce5a691a.chunk.js",
+    "static/js/2.ce5a691a.chunk.js.map": "/shells/static/js/2.ce5a691a.chunk.js.map",
+    "index.html": "/shells/index.html",
+    "precache-manifest.b6e806efde5528ad11f2ccddd0a9a468.js": "/shells/precache-manifest.b6e806efde5528ad11f2ccddd0a9a468.js",
+    "service-worker.js": "/shells/service-worker.js",
+    "static/css/main.b5872079.chunk.css.map": "/shells/static/css/main.b5872079.chunk.css.map",
+    "static/js/2.ce5a691a.chunk.js.LICENSE.txt": "/shells/static/js/2.ce5a691a.chunk.js.LICENSE.txt",
+    "static/media/aaron-burden-1rVQGaA_toU-unsplash.jpg": "/shells/static/media/aaron-burden-1rVQGaA_toU-unsplash.df203558.jpg",
+    "static/media/aaron-burden-LMlVa3QDEXs-unsplash.jpg": "/shells/static/media/aaron-burden-LMlVa3QDEXs-unsplash.37925b6f.jpg",
+    "static/media/andrew-buchanan-i4eEYLfZq-o-unsplash.jpg": "/shells/static/media/andrew-buchanan-i4eEYLfZq-o-unsplash.7f56668f.jpg",
+    "static/media/axel-visoso-st1hkaZnZow-unsplash.jpg": "/shells/static/media/axel-visoso-st1hkaZnZow-unsplash.75ab1bbf.jpg",
+    "static/media/francisco-camino-gonzalez-Fag6CbgA4Bc-unsplash.jpg": "/shells/static/media/francisco-camino-gonzalez-Fag6CbgA4Bc-unsplash.dd301646.jpg",
+    "static/media/james-wainscoat-KLzcX9Pimy0-unsplash.jpg": "/shells/static/media/james-wainscoat-KLzcX9Pimy0-unsplash.8ef1d2cd.jpg",
+    "static/media/nadieska-meza-siles-F8HbDs4srPE-unsplash.jpg": "/shells/static/media/nadieska-meza-siles-F8HbDs4srPE-unsplash.f0683261.jpg",
+    "static/media/nicole-elliott-Fs0_2Vnac_4-unsplash.jpg": "/shells/static/media/nicole-elliott-Fs0_2Vnac_4-unsplash.35605aab.jpg",
+    "static/media/peter-nicola-1V0ucpOq6D0-unsplash.jpg": "/shells/static/media/peter-nicola-1V0ucpOq6D0-unsplash.4371bca4.jpg",
+    "static/media/pooya-5MYIKULVAOc-unsplash.jpg": "/shells/static/media/pooya-5MYIKULVAOc-unsplash.59bf2f31.jpg",
+    "static/media/pratik-patel-ABwLp9DVOhg-unsplash.jpg": "/shells/static/media/pratik-patel-ABwLp9DVOhg-unsplash.68045510.jpg",
+    "static/media/index.css": "/shells/static/media/spikes.5d213869.png",
+    "static/media/stefan-kunze-xkua4kLZWO0-unsplash.jpg": "/shells/static/media/stefan-kunze-xkua4kLZWO0-unsplash.d8ae286e.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.55fde538.js",
+    "static/js/2.ce5a691a.chunk.js",
+    "static/css/main.b5872079.chunk.css",
+    "static/js/main.f3eaf398.chunk.js"
+  ]
+}
