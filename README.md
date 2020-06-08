@@ -1,5 +1,9 @@
 # Shell Collector Game
 
+This is a create-react-app game in which a user clicks on images that are randomly given a point value of 1 or 0. With every click, the point is either added to the total (if the image has a value of 1) or the total is reset to zero (if the value of the image is zero). With every click, the image order is reshuffled and image values are reassigned. If the total score beats the high score, then the high score is reassigned.
+
+The container is the class componenet that handles the dynamic changes to the image value and order. As of now, there is also an image json with static values which is imported into the class container, that probably can be removed if the game is kept as is, or used to add more complexity to the game, if certain values assigned to images were to be stagnant.
+
 ## Deployed site
 
 [Shells](https://shellcollector.herokuapp.com/)
