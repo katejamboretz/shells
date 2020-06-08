@@ -1,3 +1,37 @@
+# Shell Collector Game
+
+## Deployed site
+
+[Shells](https://shellcollector.herokuapp.com/)
+
+## Built With
+
+- [Create React App](https://github.com/facebook/create-react-app) - web app contained within the front end, resources at the end of this readme.
+- [Heroku](https://www.heroku.com/) - platform to deploy live websites
+- [Github Pages](https://blog.usejournal.com/how-to-deploy-your-react-app-into-github-pages-b2c96292b18e) and [Heroku Buildpack](https://dev.to/smithmanny/deploy-your-react-app-to-heroku-2b6f) - resources to build and deploy react apps
+- [Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/download/) - a frontend design library
+- [Node](https://nodejs.org/en/) - a Javascript libary for backend logic, or for use outside a browser
+- [JQuery](https://jquery.com/) - a Javascript library
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) - HyperText Markup Language used for structure
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) - Cascading Style Sheets used for styling
+- [Google Fonts](https://fonts.google.com) - Google source for personalized fonts
+- [Unsplash Photos](https://unsplash.com) - internet source for photos
+- [Subtle Patterns](https://www.toptal.com/designers/subtlepatterns/) - nice images and patterns for website backgrounds
+- [favicon.io](https://favicon.io/) - free favicon generator, which provided the shell emoji favicon used here
+
+## Authors
+
+- **Kate Jamboretz** - _Initial work_ - [katejamboretz](https://github.com/katejamboretz)
+- **UCB Extension Full Stack Program** - _provide assignment objective/game and initial layout idea_
+
+## Acknowledgments
+
+- UC Berkeley Extension Full Stack Development 2020 Instructor, TAs and classmates
+- [PurpleBooth README template](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
+- [Unsplash Photographers](https://unsplash.com) - names listed in image titles
+
+## RESOURCES PROVIDED BY CREATE-REACT-APP
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
