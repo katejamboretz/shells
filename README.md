@@ -6,12 +6,12 @@ The container is the class componenet that handles the dynamic changes to the im
 
 ## Deployed site
 
-[Shells](https://shellcollector.herokuapp.com/)
+[Shells](https://katejamboretz.github.io/shells/)
 
 ## Built With
 
 - [Create React App](https://github.com/facebook/create-react-app) - web app contained within the front end, resources at the end of this readme.
-- [Heroku](https://www.heroku.com/) - platform to deploy live websites
+- [Heroku](https://www.heroku.com/) - platform to deploy live websites - heroku app is not functional as of now, so current live site is on github pages
 - [Github Pages](https://blog.usejournal.com/how-to-deploy-your-react-app-into-github-pages-b2c96292b18e) and [Heroku Buildpack](https://dev.to/smithmanny/deploy-your-react-app-to-heroku-2b6f) - resources to build and deploy react apps
 - [Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/download/) - a frontend design library
 - [Node](https://nodejs.org/en/) - a Javascript libary for backend logic, or for use outside a browser
